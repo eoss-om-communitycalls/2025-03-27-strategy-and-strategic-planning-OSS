@@ -1,8 +1,8 @@
 ---
-title: "An example report "
-subtitle: "Exploring how to report out from community calls"
-authors: ["Author Number One", "Author Number Two"]
-date: "August 13, 2024"
+title: "Strategic Thinking Starter Kit for Open Source Projects"
+subtitle: 
+authors: ["Yani Bellini Saibene", "Beth Duckles", "Jonah Duckles", "Chris Holdgraf", "Kari L. Jordan", "Daniel S. Katz", "Dan Sholler", "Kirstie Whitaker"]
+date: "March 27, 2025"
 format:
     html: 
       self-contained: true
@@ -15,40 +15,491 @@ citation-location: margin
 bibliography: bibliography.bib
 ---
 
-This template can be used to create simple reports for reporting the output / outcomes of activities and events. It is built and rendered using quarto 
+# Strategic Thinking Starter Kit for Open Source Projects
 
-# Section 1 
+**A practical guide to help open source software projects think strategically, have productive conversations, and make values-aligned decisions**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat pretium tempus. Mauris eget nisl ante. Etiam iaculis, nisl ultricies facilisis aliquet, urna odio porta nisi, non tristique enim sapien eget mi. Proin sed orci lobortis, sodales orci quis, consectetur nulla. Phasellus eget enim rhoncus, fermentum nisi ut, aliquet nulla. Sed mollis ullamcorper dolor, at tempus est vulputate eget. Mauris consequat felis nec eros venenatis, sit amet tempor neque consectetur. Curabitur pharetra, metus a sodales fermentum, neque libero sollicitudin magna, eget fermentum sapien dolor sit amet dolor. Fusce odio felis, pulvinar in laoreet at, sodales sed magna. Sed sagittis, enim id feugiat laoreet, erat nisi rhoncus ipsum, vitae suscipit quam nulla id libero. Integer condimentum, eros eget rutrum porta, tortor turpis sodales ligula, a facilisis nisi tortor id risus. [^note]
+*Based on insights from the CZI EOSS Community Call, March 27, 2025*
 
-[^note]: this is a sidenote. it can contain whatever HTML content you want in it. 
+---
 
-## Subsection 1.1
+## How to Use This Guide
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat pretium tempus. Mauris eget nisl ante. Etiam iaculis, nisl ultricies facilisis aliquet, urna odio porta nisi, non tristique enim sapien eget mi. Proin sed orci lobortis, sodales orci quis, consectetur nulla. Phasellus eget enim rhoncus, fermentum nisi ut, aliquet nulla. Sed mollis ullamcorper dolor, at tempus est vulputate eget. Mauris consequat felis nec eros venenatis, sit amet tempor neque consectetur. Curabitur pharetra, metus a sodales fermentum, neque libero sollicitudin magna, eget fermentum sapien dolor sit amet dolor. Fusce odio felis, pulvinar in laoreet at, sodales sed magna. Sed sagittis, enim id feugiat laoreet, erat nisi rhoncus ipsum, vitae suscipit quam nulla id libero. Integer condimentum, eros eget rutrum porta, tortor turpis sodales ligula, a facilisis nisi tortor id risus. ^[You can also include notes inline, and don't need to create an identifier for them]
+This starter kit is designed to be flexible. You don't need to do everything at once, and you don't need formal strategic planning experience to benefit from thinking strategically.
 
-# Section 2 
+> **Important Context:** Open source projects are not corporations. Your strategic approach should reflect your community-centered values, volunteer dynamics, and the reality that leadership is often distributed. This guide embraces that complexity.
 
-![A Venn diagram of the Scientific Open Source Landscape](https://dropshare.duckles.nz/scienceoss.jpg)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat pretium tempus. Mauris eget nisl ante. Etiam iaculis, nisl ultricies facilisis aliquet, urna odio porta nisi, non tristique enim sapien eget mi. Proin sed orci lobortis, sodales orci quis, consectetur nulla. Phasellus eget enim rhoncus, fermentum nisi ut, aliquet nulla. Sed mollis ullamcorper dolor, at tempus est vulputate eget. Mauris consequat felis nec eros venenatis, sit amet tempor neque consectetur. Curabitur pharetra, metus a sodales fermentum, neque libero sollicitudin magna, eget fermentum sapien dolor sit amet dolor. Fusce odio felis, pulvinar in laoreet at, sodales sed magna. Sed sagittis, enim id feugiat laoreet, erat nisi rhoncus ipsum, vitae suscipit quam nulla id libero. Integer condimentum, eros eget rutrum porta, tortor turpis sodales ligula, a facilisis nisi tortor id risus. [@geiger_challenges_2018]
+### Three Ways to Use This Kit:
 
-# Conclusion 
+**🎯 Quick Start**
+Jump to the "Decision Tools" section when facing a specific choice (like evaluating a funding opportunity)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat pretium tempus. Mauris eget nisl ante. Etiam iaculis, nisl ultricies facilisis aliquet, urna odio porta nisi, non tristique enim sapien eget mi. Proin sed orci lobortis, sodales orci quis, consectetur nulla. Phasellus eget enim rhoncus, fermentum nisi ut, aliquet nulla. Sed mollis ullamcorper dolor, at tempus est vulputate eget. Mauris consequat felis nec eros venenatis, sit amet tempor neque consectetur. Curabitur pharetra, metus a sodales fermentum, neque libero sollicitudin magna, eget fermentum sapien dolor sit amet dolor. Fusce odio felis, pulvinar in laoreet at, sodales sed magna. Sed sagittis, enim id feugiat laoreet, erat nisi rhoncus ipsum, vitae suscipit quam nulla id libero. Integer condimentum, eros eget rutrum porta, tortor turpis sodales ligula, a facilisis nisi tortor id risus.
+**💬 Facilitation**
+Use the "Conversation Guides" to structure a strategic discussion with your team or community
 
-## Including Tables 
-| Country           | Population      |
-|-------------------|-----------------|
-| China             | 1,412,600,000   |
-| India             | 1,366,000,000   |
-| United States     | 331,000,000     |
-| Indonesia         | 273,500,000     |
-| Pakistan          | 220,900,000     |
-| Brazil            | 212,600,000     |
-| Nigeria           | 206,100,000     |
-| Bangladesh        | 166,300,000     |
-| Russia            | 146,700,000     |
-| Mexico            | 126,000,000     |
+**📚 Deep Dive**
+Read through all sections to build your strategic thinking foundation
+
+---
+
+## Part 1: Understanding Strategy
+
+### What is Strategy?
+
+Strategy is about leverage—how to have the most impact with the resources you have. It's a coherent story about how your project will succeed by solving a hard problem.
+
+> **A strategy helps you answer two questions:**
+> 1. Where to play (what problem are we solving?)
+> 2. How to win (what makes our approach work?)
+
+### Strategy vs. Strategic Plan vs. Tactics
+
+| Concept | What It Is | Example |
+|---------|-----------|---------|
+| **Strategy** | Your high-level approach and theory of change—the 1-page story of your success | "We'll build excellent relationships with researchers while designing financially accessible tools for a global audience" |
+| **Strategic Plan** | A documented set of goals, priorities, and focus areas (typically 2-5 years) | "Goals: 1) Expand regional communities 2) Improve contributor onboarding 3) Diversify revenue" |
+| **Tactics** | Specific methods and actions to implement your strategy | "Host monthly community calls," "Apply for X foundation grant," "Hire a community manager" |
+
+### Key Principles of Good Strategy
+
+✅ **It defines what you won't do**
+Strategic "no's" are as important as "yes's"—they protect your focus and resources
+
+✅ **It makes decision-making easier**
+When team members can "tap the sign" and reference your strategy to guide choices
+
+✅ **It's grounded in constraints**
+Your resources, capacity, and values shape what's possible—embrace them as design inputs
+
+✅ **It (can) fit on one page**
+If you can't explain it simply, it's not clear enough to guide action
+
+✅ **It's living and adaptable**
+More like gardening than engineering—you tend it and adjust as conditions change
+
+### The "One-Page Story" Exercise
+
+Imagine someone writing a one-page story about your project's success in 3-5 years. What would that story say? Try completing this template:
+
+```
+[Project Name] succeeded in [solving what hard problem].
+
+They did this by focusing on [2-3 key focus areas].
+
+This approach worked because [what made it effective/different].
+
+They explicitly chose NOT to [what they said no to] so they could 
+maintain focus.
+```
+
+---
+
+## Part 2: Who Should Be Involved & When
+
+One of the biggest questions in open source strategic planning is: "Who is 'the organization'?" Is it the core maintainers? All contributors? Funded staff? The broader community?
+
+> **There's No Single Right Answer:** Different levels of strategic work require different participants. The key is being intentional about who's in the room for what kinds of discussions, and why.
+
+### Levels of Strategic Engagement
+
+**Level 1: Core Strategy (Small Group)**
+- **Who:** Project leadership, key maintainers, core staff
+- **What:** Develops the high-level strategic direction, makes final calls on major "no's," and shapes the one-page story. This group needs deep context and decision-making authority.
+
+**Level 2: Strategic Planning (Medium Group)**
+- **Who:** Core group + active contributors + key community voices
+- **What:** Develops goals, priorities, and focus areas. Provides input on what's feasible and what the community needs. This is where you translate strategy into a plan.
+
+**Level 3: Input & Feedback (Broad)**
+- **Who:** Broader community, users, stakeholders
+- **What:** Provides insights on needs, pain points, and opportunities. Not involved in final decisions, but their voices inform the strategy. Use surveys, listening sessions, and open feedback channels.
+
+**Level 4: Implementation & Tactics (Variable)**
+- **Who:** Working groups, committees, volunteers who want to be involved
+- **What:** Executes on strategic priorities. Once strategy is clear, people can self-organize around implementation within strategic boundaries.
+
+### Questions to Help You Decide
+
+- Who has the context and authority to make final strategic decisions for the project?
+- Who are the people most affected by strategic choices (staff, core volunteers)?
+- Whose buy-in and support do you need for strategy to actually work?
+- Which community voices represent important perspectives that might otherwise be missed?
+- Who wants to be involved in strategic discussions vs. who prefers to focus on building/using the software?
+- Do you have volunteer bandwidth and interest for broad strategic engagement, or is a smaller group more realistic?
+
+### Making It Work: Practical Tips
+
+**Be explicit about roles:** Tell people "we're gathering input" vs. "we're making decisions together" so expectations are clear.
+
+**Create opt-in opportunities:** Some volunteers want to help shape strategy; others don't. Make strategic discussions separate and optional from technical work.
+
+**Use a scaffolding approach:** Build the support structures (governance, roles, processes) that allow people to contribute strategically at the level that works for them.
+
+**Communicate strategy broadly:** Even if only a small group develops it, share the strategy widely so everyone understands the direction and can make aligned decisions.
+
+---
+
+## Part 3: Conversation Guides
+
+These guides can help you facilitate strategic conversations with your team. Choose the one that fits your current needs, or adapt them to your context.
+
+### Guide 1: Initial Strategy Conversation (60-90 min)
+
+Use this when your project hasn't had explicit strategic discussions before.
+
+**Part 1: What Problem Are We Solving? (20 min)**
+
+Discussion questions:
+- What's the hard problem our project exists to solve?
+- Who benefits when we succeed?
+- What would be lost if our project didn't exist?
+
+**Part 2: What Makes Us Different? (20 min)**
+
+Discussion questions:
+- What are our unique strengths or advantages?
+- What constraints do we have (resources, capacity, values)?
+- How can we turn constraints into features of our approach?
+
+**Part 3: What Are We NOT Doing? (20 min)**
+
+Discussion questions:
+- What opportunities or requests have we been saying 'maybe' to that don't fit?
+- What are we doing now that doesn't align with our core problem/strength?
+- What would we need to explicitly say 'no' to in order to succeed?
+
+**Part 4: Draft Your One-Page Story (20-30 min)**
+
+Work together to complete the one-page story template from the "Understanding Strategy" section. Don't worry about perfection—get something down that you can refine over time.
+
+---
+
+### Guide 2: Strategy Check-In (30-45 min)
+
+Use this quarterly or when facing uncertainty to revisit your strategy.
+
+**Reflection Questions:**
+- Is our strategy still helping us make decisions more easily?
+- Have we encountered opportunities we said 'yes' to that didn't fit our strategy? Why?
+- Have external conditions changed enough that we need to adapt our approach?
+- Are we actually saying 'no' to the things we said we'd say no to?
+- What's one thing we could stop doing to better align with our strategy?
+
+---
+
+### Guide 3: Community Listening Session (60 min)
+
+Use this to gather input from your broader community before developing or revising strategy.
+
+**Set Clear Expectations**
+Start by explaining that you're gathering input to inform strategic decisions, and that while you may not be able to act on everything, all perspectives help you understand what matters.
+
+**Community Input Questions:**
+- What do you value most about this project?
+- What pain points or challenges do you face when using or contributing?
+- What changes or developments in your field/community might affect this project?
+- If you could wave a magic wand and change one thing about the project's direction, what would it be?
+- What should this project definitely NOT change or compromise on?
+
+**After the Session**
+Share back what you heard (themes, not necessarily detailed notes) and how you'll use it. This builds trust even when you can't implement every suggestion.
+
+---
+
+### Guide 4: Values & Strategy Alignment (45-60 min)
+
+Use this when you need to make sure your strategy reflects your values, especially during uncertain times.
+
+**Reflection Questions:**
+- What are the non-negotiable values of this project? (List 3-5)
+- How does our current strategy/direction reflect those values?
+- Are there ways we're compromising our values without realizing it?
+- What risks are we willing to take to stand by our values?
+- What risks are we NOT willing to take, given who depends on us?
+- If staying true to our values means closing some doors, which doors are we okay closing?
+
+> **Remember:** Values-driven strategy can be a source of strength, but it also requires courage. It's okay to acknowledge that standing by values feels risky, especially when you're responsible for other people's livelihoods or community stability.
+
+---
+
+## Part 4: Decision Tools & Frameworks
+
+Use these tools when facing specific strategic decisions. They help you evaluate opportunities and choices against your strategy and values.
+
+### Tool 1: Funding Opportunity Evaluator
+
+Use this when considering whether to pursue a grant, contract, or other funding opportunity.
+
+**1. Alignment Check**
+- ☐ Does this funding support work that's in our strategy/focus areas?
+- ☐ If we succeed at what this funding requires, does it advance our core mission?
+- ☐ Is this work we'd want to do anyway, or are we bending to fit the funding?
+
+**2. Values Check**
+- ☐ Does accepting this funding require us to compromise any core values?
+- ☐ Are there strings attached that would constrain us in problematic ways?
+- ☐ Does the funder's reputation align with what we stand for?
+
+**3. Capacity Check**
+- ☐ Do we have (or can we hire) the capacity to deliver on this well?
+- ☐ Will pursuing this pull energy away from higher-priority work?
+- ☐ What's the opportunity cost—what will we NOT do if we take this on?
+
+**4. Sustainability Check**
+- ☐ Is this one-time funding or does it build toward longer-term sustainability?
+- ☐ If it's time-limited, what happens when it ends? Are we creating dependencies?
+- ☐ Does this help diversify our funding sources or make us more dependent on one funder?
+
+**Decision Framework:**
+- **Strong Yes:** Aligned on all 4 dimensions
+- **Conditional Yes:** 3/4 aligned, with a plan to address concerns
+- **Maybe/Investigate More:** 2/4 aligned
+- **No:** 0-1/4 aligned, or fundamental values conflict
+
+---
+
+### Tool 2: The Strategic "No" Decision Tree
+
+Use this when you need help deciding whether to decline an opportunity or request.
+
+**Q1: Does this align with our stated strategy/focus areas?**
+- If NO → This is likely a strategic "no"
+- If YES → Continue to Q2
+
+**Q2: Do we have capacity to do this well without compromising higher priorities?**
+- If NO → This is a capacity-based "no" (or "not now")
+- If YES → Continue to Q3
+
+**Q3: Does this align with our values and what we want to be known for?**
+- If NO → This is a values-based "no"
+- If YES → Continue to Q4
+
+**Q4: Are we saying yes because it's aligned, or because we're afraid to say no?**
+- If afraid → Pause and discuss with others. Fear of saying no can lead to overcommitment
+- If truly aligned → This could be a "yes"
+
+**Q5: If we say yes, what are we saying no to?**
+- List what you'll deprioritize or stop
+- If the trade-off feels wrong → This might actually be a "no"
+- If the trade-off makes sense → Proceed with the "yes"
+
+---
+
+### Tool 3: The Pivot vs. Drift Detector
+
+Use this when you're considering a significant change in direction.
+
+**A "Pivot" is intentional and strategic:**
+- You've explicitly discussed and decided to change direction
+- The new direction still aligns with your core mission/problem
+- You can articulate why the change is necessary
+- You're communicating the change clearly to stakeholders
+
+**"Drift" is reactive and unintentional:**
+- You're taking on work that doesn't fit your strategy without discussing it
+- You're saying yes to funding/opportunities just because they're available
+- Your team is confused about priorities or direction
+- You can't clearly explain why you're doing certain things
+
+**Questions to ask:**
+- Can we articulate why this change advances our mission?
+- Have we intentionally decided this, or are we just responding to external pressure?
+- Does our team/community understand and support this shift?
+- Are we changing our strategy, or are we abandoning it?
+
+---
+
+## Part 5: Examples from Practice
+
+These examples come from the community call conversation and illustrate common challenges and insights.
+
+### Example 1: The Cost of Misaligned Funding
+
+**Scenario:** "We had early opportunities that brought in money but didn't advance our goals. It wasn't leaning into our tailwinds—we were solving a different problem than the one we were supposed to be solving."
+
+**Insight:** Taking funding that doesn't align with your strategy can pull you off course, even if you need the money. Better to focus limited capacity on opportunities that build toward your goals.
+
+---
+
+### Example 2: When Strategy Makes Decisions Easy
+
+**Scenario:** "You know you have the right strategy when things feel easy—the decision-making process becomes clearer, even if execution is still hard."
+
+**Insight:** Good strategy acts as a decision-making framework. Team members can reference it to evaluate opportunities independently, which reduces bottlenecks and increases autonomy.
+
+---
+
+### Example 3: Community-Led Strategy
+
+**Scenario:** "We are very intentional about strategy because our community relies on volunteers and is volunteer-led. Whatever strategy we come up with must have community support and engagement. We start by listening to community voices: what is our community talking about? How are they using our resources? What are their pain points?"
+
+**Insight:** For volunteer-driven projects, strategy must emerge from community needs and values. Top-down strategy won't work without volunteer buy-in and engagement.
+
+---
+
+### Example 4: The Courage Question
+
+**Scenario:** "A lot of people, including senior and less experienced, would find the act of doubling down on something that is being actively attacked risky—it takes courage. How do you support people to recognize that it's a feature that your strategy says no to things?"
+
+**Insight:** Standing by values in uncertain times requires courage, especially when you're responsible for others. Strategy helps by making it clear that saying no to certain things is intentional, not accidental.
+
+---
+
+### Example 5: The "Closing Doors" Feature
+
+**Scenario:** "It takes a lot of courage to know that [your strategy] will close some doors. We don't want to be uncomfortable."
+
+**Insight:** A clear strategy inherently limits what you pursue—this is a feature, not a bug. The discomfort of closing doors is a sign that you're making real strategic choices, not trying to be everything to everyone.
+
+---
+
+### Example 6: Reactive vs. Intentional
+
+**Scenario:** "Very reactive—what funding opportunity is coming up or what problem needs fixing. Mostly our challenge here is everyone looking for someone else to set the direction! A combination of burnout and not feeling like individuals have 'permission' to share a strong opinion."
+
+**Insight:** Without explicit strategy, teams default to reactive mode and wait for others to lead. Creating space for strategic thinking requires both structural changes (time, processes) and cultural changes (permission to have strong opinions).
+
+---
+
+### Example 7: The Scaffolding Metaphor
+
+**Scenario:** "When an ED, [think of a] scaffolding metaphor—put up scaffolding that allows you to build the building that you want to. What are you doing in terms of the support structures you build?"
+
+**Insight:** Strategy includes thinking about the organizational structures and roles you need to achieve your goals. What scaffolding (governance, hiring, processes) enables your strategy?
+
+---
+
+### Example 8: Strategy Must Include What You're NOT Doing
+
+**Scenario:** "Strategy thought of as what you're going to do, but it can also be what you're not going to do. Has to include what you're not going to do. Have to be explicit 'nos.'"
+
+**Insight:** Defining what you won't do is just as important as defining what you will do. Without explicit boundaries, strategy becomes vague and unhelpful.
+
+---
+
+## Part 6: Common Challenges & How to Address Them
+
+### Challenge 1: "We're too busy firefighting to think strategically"
+
+**Why this happens:** Without strategy, everything feels urgent and you're always reactive.
+
+**How to address it:**
+- Start small: dedicate just 30 minutes once a month to strategic reflection
+- Recognize that some fires exist because you lack strategic clarity
+- Use the "Strategy Check-In" conversation guide to create regular reflection time
+- Consider: what fires would you stop having if you had clearer strategy?
+
+---
+
+### Challenge 2: "Nobody feels like they have permission to set direction"
+
+**Why this happens:** Unclear decision-making authority, fear of conflict, burnout, or overly consensus-driven culture without a final decision-maker.
+
+**How to address it:**
+- Explicitly designate who has authority to make strategic decisions
+- Create a "safe to try" culture where people can propose directions without perfect certainty
+- Recognize that conflict in service of the project can be generative
+- Model sharing strong opinions as a leader, even if they're not fully formed
+
+---
+
+### Challenge 3: "We don't know who should be involved in strategic discussions"
+
+**Why this happens:** Blurry boundaries in open source between users, contributors, staff, and leadership.
+
+**How to address it:**
+- Use the "Levels of Strategic Engagement" framework from Part 2
+- Be explicit about what type of input you're seeking (information vs. decision-making)
+- Create separate, opt-in opportunities for strategic involvement
+- Communicate widely even if only a small group decides
+
+---
+
+### Challenge 4: "Our strategy needs to adapt, but we just created a plan"
+
+**Why this happens:** External conditions change faster than planning cycles.
+
+**How to address it:**
+- Remember: strategy is living and emergent, not a fixed document
+- Use shorter planning cycles (2 years instead of 5)
+- Build in regular check-ins to reassess whether strategy still fits
+- Distinguish between tactical adjustments and fundamental strategic pivots
+- Give yourself permission to intentionally pivot when conditions warrant it
+
+---
+
+### Challenge 5: "We're afraid to say no to funding we need"
+
+**Why this happens:** Resource scarcity and very real financial pressure.
+
+**How to address it:**
+- Use the Funding Opportunity Evaluator to systematically assess fit
+- Recognize that misaligned funding can cost more (in opportunity cost) than it provides
+- Consider: "Are we saying yes because it advances our goals, or just because we need money?"
+- Build toward funding diversification so no single source determines your direction
+- Remember: "The three jobs of an ED are: don't run out of money (x3)"—but that doesn't mean taking every opportunity
+
+---
+
+### Challenge 6: "Strategy feels abstract and disconnected from day-to-day work"
+
+**Why this happens:** Strategy hasn't been translated into actionable priorities and decision-making frameworks.
+
+**How to address it:**
+- Create the "one-page story" that team members can reference
+- Use strategy in real decisions and explicitly connect the dots: "We're doing X because of our strategy to Y"
+- Develop 2-3 focus areas that translate strategy into priorities
+- Make strategy visible: post it, reference it, "tap the sign"
+- Revisit and refine based on how well it's actually guiding decisions
+
+---
+
+## Part 7: Additional Resources
+
+### Recommended Reading
+
+**Books**
+- *Good Strategy, Bad Strategy* by Richard Rumelt
+  - Key insight: "A strategy is not a plan" and "A strategy's value is in helping you decide what not to do"
+- *Escaping the Build Trap: How Effective Product Management Creates Value* by Melissa Perri
+  - On sticking to strategy when signals tell you to go in other directions
+
+**Articles & Talks**
+- Linux Foundation: [Setting an Open Source Strategy](https://www.linuxfoundation.org/resources/open-source-guides/setting-an-open-source-strategy)
+- FOSDEM 2025: [When Is It Right to Say No to Funding?](https://fosdem.org/2025/schedule/event/fosdem-2025-6481-when-is-it-right-to-say-no-to-funding-/)
+- Hilarious nonprofit funder dynamics video: [The Nonprofit Video Every Funder Should Watch](https://www.youtube.com/watch?v=-gELZnORV4U&t=3s)
+
+### Strategic Planning Examples from Open Source
+
+- [The Carpentries Strategic Plan](https://carpentries.org/about-us/strategic-plan/)
+  - Note: Reduced plan to 2 years instead of 5 to account for uncertainty
+  - Focuses on complex goals like inclusivity that aren't easily measurable
+
+---
+
+## Part 8: Final Thoughts
+
+Strategic thinking in open source is different from corporate strategy. Your approach should reflect:
+
+- **Community-centered values** - Strategy must have community support and reflect their needs
+- **Distributed leadership** - Many people contribute to direction-setting
+- **Volunteer dynamics** - You can't mandate strategy; people choose to align with it
+- **Resource constraints** - Turn limitations into design features
+- **Uncertainty and emergence** - Strategy is more like gardening than engineering
+- **Values as strategic assets** - Your principles guide what you say yes and no to
+
+Remember: Strategy doesn't have to be perfect or formal. Even having a rough "one-page story" is better than operating without strategic clarity. Start where you are, involve the right people, and refine over time.
+
+---
+
+## How to Contribute to This Guide
+
+This resource reflects one community conversation and we know there's much more to explore. We welcome:
+
+- Additional examples and case studies from open source projects
+- New decision tools and frameworks
+- Resources that have helped your project think strategically
+- Feedback on what's useful and what's missing
 
 <!-- FOOTER & LOGOS Please do not modify below --> 
 ----
