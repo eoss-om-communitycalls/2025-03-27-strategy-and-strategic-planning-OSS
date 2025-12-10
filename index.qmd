@@ -49,6 +49,7 @@ Read through all sections to build your strategic thinking foundation
 Strategy is about leverage—how to have the most impact with the resources you have. It's a coherent story about how your project will succeed by solving a hard problem.
 
 > **A strategy helps you answer two questions:**
+
 > 1. Where to play (what problem are we solving?)
 > 2. How to win (what makes our approach work?)
 
@@ -103,18 +104,22 @@ One of the biggest questions in open source strategic planning is: "Who is 'the 
 ### Levels of Strategic Engagement
 
 **Level 1: Core Strategy (Small Group)**
+
 - **Who:** Project leadership, key maintainers, core staff
 - **What:** Develops the high-level strategic direction, makes final calls on major "no's," and shapes the one-page story. This group needs deep context and decision-making authority.
 
 **Level 2: Strategic Planning (Medium Group)**
+
 - **Who:** Core group + active contributors + key community voices
 - **What:** Develops goals, priorities, and focus areas. Provides input on what's feasible and what the community needs. This is where you translate strategy into a plan.
 
 **Level 3: Input & Feedback (Broad)**
+
 - **Who:** Broader community, users, stakeholders
 - **What:** Provides insights on needs, pain points, and opportunities. Not involved in final decisions, but their voices inform the strategy. Use surveys, listening sessions, and open feedback channels.
 
 **Level 4: Implementation & Tactics (Variable)**
+
 - **Who:** Working groups, committees, volunteers who want to be involved
 - **What:** Executes on strategic priorities. Once strategy is clear, people can self-organize around implementation within strategic boundaries.
 
@@ -150,6 +155,7 @@ Use this when your project hasn't had explicit strategic discussions before.
 **Part 1: What Problem Are We Solving? (20 min)**
 
 Discussion questions:
+
 - What's the hard problem our project exists to solve?
 - Who benefits when we succeed?
 - What would be lost if our project didn't exist?
@@ -157,6 +163,7 @@ Discussion questions:
 **Part 2: What Makes Us Different? (20 min)**
 
 Discussion questions:
+
 - What are our unique strengths or advantages?
 - What constraints do we have (resources, capacity, values)?
 - How can we turn constraints into features of our approach?
@@ -164,6 +171,7 @@ Discussion questions:
 **Part 3: What Are We NOT Doing? (20 min)**
 
 Discussion questions:
+
 - What opportunities or requests have we been saying 'maybe' to that don't fit?
 - What are we doing now that doesn't align with our core problem/strength?
 - What would we need to explicitly say 'no' to in order to succeed?
@@ -179,6 +187,7 @@ Work together to complete the one-page story template from the "Understanding St
 Use this quarterly or when facing uncertainty to revisit your strategy.
 
 **Reflection Questions:**
+
 - Is our strategy still helping us make decisions more easily?
 - Have we encountered opportunities we said 'yes' to that didn't fit our strategy? Why?
 - Have external conditions changed enough that we need to adapt our approach?
@@ -192,9 +201,11 @@ Use this quarterly or when facing uncertainty to revisit your strategy.
 Use this to gather input from your broader community before developing or revising strategy.
 
 **Set Clear Expectations**
+
 Start by explaining that you're gathering input to inform strategic decisions, and that while you may not be able to act on everything, all perspectives help you understand what matters.
 
 **Community Input Questions:**
+
 - What do you value most about this project?
 - What pain points or challenges do you face when using or contributing?
 - What changes or developments in your field/community might affect this project?
@@ -202,6 +213,7 @@ Start by explaining that you're gathering input to inform strategic decisions, a
 - What should this project definitely NOT change or compromise on?
 
 **After the Session**
+
 Share back what you heard (themes, not necessarily detailed notes) and how you'll use it. This builds trust even when you can't implement every suggestion.
 
 ---
@@ -211,6 +223,7 @@ Share back what you heard (themes, not necessarily detailed notes) and how you'l
 Use this when you need to make sure your strategy reflects your values, especially during uncertain times.
 
 **Reflection Questions:**
+
 - What are the non-negotiable values of this project? (List 3-5)
 - How does our current strategy/direction reflect those values?
 - Are there ways we're compromising our values without realizing it?
@@ -231,26 +244,31 @@ Use these tools when facing specific strategic decisions. They help you evaluate
 Use this when considering whether to pursue a grant, contract, or other funding opportunity.
 
 **1. Alignment Check**
+
 - ☐ Does this funding support work that's in our strategy/focus areas?
 - ☐ If we succeed at what this funding requires, does it advance our core mission?
 - ☐ Is this work we'd want to do anyway, or are we bending to fit the funding?
 
 **2. Values Check**
+
 - ☐ Does accepting this funding require us to compromise any core values?
 - ☐ Are there strings attached that would constrain us in problematic ways?
 - ☐ Does the funder's reputation align with what we stand for?
 
 **3. Capacity Check**
+
 - ☐ Do we have (or can we hire) the capacity to deliver on this well?
 - ☐ Will pursuing this pull energy away from higher-priority work?
 - ☐ What's the opportunity cost—what will we NOT do if we take this on?
 
 **4. Sustainability Check**
+
 - ☐ Is this one-time funding or does it build toward longer-term sustainability?
 - ☐ If it's time-limited, what happens when it ends? Are we creating dependencies?
 - ☐ Does this help diversify our funding sources or make us more dependent on one funder?
 
 **Decision Framework:**
+
 - **Strong Yes:** Aligned on all 4 dimensions
 - **Conditional Yes:** 3/4 aligned, with a plan to address concerns
 - **Maybe/Investigate More:** 2/4 aligned
@@ -263,22 +281,27 @@ Use this when considering whether to pursue a grant, contract, or other funding 
 Use this when you need help deciding whether to decline an opportunity or request.
 
 **Q1: Does this align with our stated strategy/focus areas?**
+
 - If NO → This is likely a strategic "no"
 - If YES → Continue to Q2
 
 **Q2: Do we have capacity to do this well without compromising higher priorities?**
+
 - If NO → This is a capacity-based "no" (or "not now")
 - If YES → Continue to Q3
 
 **Q3: Does this align with our values and what we want to be known for?**
+
 - If NO → This is a values-based "no"
 - If YES → Continue to Q4
 
 **Q4: Are we saying yes because it's aligned, or because we're afraid to say no?**
+
 - If afraid → Pause and discuss with others. Fear of saying no can lead to overcommitment
 - If truly aligned → This could be a "yes"
 
 **Q5: If we say yes, what are we saying no to?**
+
 - List what you'll deprioritize or stop
 - If the trade-off feels wrong → This might actually be a "no"
 - If the trade-off makes sense → Proceed with the "yes"
@@ -290,18 +313,21 @@ Use this when you need help deciding whether to decline an opportunity or reques
 Use this when you're considering a significant change in direction.
 
 **A "Pivot" is intentional and strategic:**
+
 - You've explicitly discussed and decided to change direction
 - The new direction still aligns with your core mission/problem
 - You can articulate why the change is necessary
 - You're communicating the change clearly to stakeholders
 
 **"Drift" is reactive and unintentional:**
+
 - You're taking on work that doesn't fit your strategy without discussing it
 - You're saying yes to funding/opportunities just because they're available
 - Your team is confused about priorities or direction
 - You can't clearly explain why you're doing certain things
 
 **Questions to ask:**
+
 - Can we articulate why this change advances our mission?
 - Have we intentionally decided this, or are we just responding to external pressure?
 - Does our team/community understand and support this shift?
@@ -408,6 +434,7 @@ These examples come from the community call conversation and illustrate common c
 **Why this happens:** Blurry boundaries in open source between users, contributors, staff, and leadership.
 
 **How to address it:**
+
 - Use the "Levels of Strategic Engagement" framework from Part 2
 - Be explicit about what type of input you're seeking (information vs. decision-making)
 - Create separate, opt-in opportunities for strategic involvement
@@ -420,6 +447,7 @@ These examples come from the community call conversation and illustrate common c
 **Why this happens:** External conditions change faster than planning cycles.
 
 **How to address it:**
+
 - Remember: strategy is living and emergent, not a fixed document
 - Use shorter planning cycles (2 years instead of 5)
 - Build in regular check-ins to reassess whether strategy still fits
@@ -433,6 +461,7 @@ These examples come from the community call conversation and illustrate common c
 **Why this happens:** Resource scarcity and very real financial pressure.
 
 **How to address it:**
+
 - Use the Funding Opportunity Evaluator to systematically assess fit
 - Recognize that misaligned funding can cost more (in opportunity cost) than it provides
 - Consider: "Are we saying yes because it advances our goals, or just because we need money?"
@@ -446,6 +475,7 @@ These examples come from the community call conversation and illustrate common c
 **Why this happens:** Strategy hasn't been translated into actionable priorities and decision-making frameworks.
 
 **How to address it:**
+
 - Create the "one-page story" that team members can reference
 - Use strategy in real decisions and explicitly connect the dots: "We're doing X because of our strategy to Y"
 - Develop 2-3 focus areas that translate strategy into priorities
@@ -459,12 +489,17 @@ These examples come from the community call conversation and illustrate common c
 ### Recommended Reading
 
 **Books**
+
 - *Good Strategy, Bad Strategy* by Richard Rumelt
+
   - Key insight: "A strategy is not a plan" and "A strategy's value is in helping you decide what not to do"
+
 - *Escaping the Build Trap: How Effective Product Management Creates Value* by Melissa Perri
+
   - On sticking to strategy when signals tell you to go in other directions
 
 **Articles & Talks**
+
 - Linux Foundation: [Setting an Open Source Strategy](https://www.linuxfoundation.org/resources/open-source-guides/setting-an-open-source-strategy)
 - FOSDEM 2025: [When Is It Right to Say No to Funding?](https://fosdem.org/2025/schedule/event/fosdem-2025-6481-when-is-it-right-to-say-no-to-funding-/)
 - Hilarious nonprofit funder dynamics video: [The Nonprofit Video Every Funder Should Watch](https://www.youtube.com/watch?v=-gELZnORV4U&t=3s)
