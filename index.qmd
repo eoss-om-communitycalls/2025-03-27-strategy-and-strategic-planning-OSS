@@ -1,6 +1,6 @@
 ---
 title: "Strategic Thinking Starter Kit for Open Source Projects"
-subtitle: 
+subtitle: A resource for open source leaders
 authors: ["Yani Bellini Saibene", "Beth Duckles", "Jonah Duckles", "Chris Holdgraf", "Kari L. Jordan", "Daniel S. Katz", "Dan Sholler", "Kirstie Whitaker"]
 date: "March 27, 2025"
 format:
